@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+.container-nav {
+    margin: 0;
+    padding: 0 5%;
+}
+
+.project-info {
+    position: absolute;
+    top: 75%;
+    left: 5%;
+}
+
+.project:hover .project-info {
+    top: 0;
+    transition: 0.5s;
+}
+
+@media screen and (max-width: 1024px) {
+    .container-nav {
+        margin: 0 auto;
+        padding: 0 2%;
+    }
+}
+
+/* ANIMATION */
+@keyframes left {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes right {
+    0% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes bottom {
+    0% {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animation-left {
+    animation: left 1s;
+    animation-timeline: view();
+    animation-range: entry 0% contain 60%;
+}
+
+.animation-right {
+    animation: right 1s;
+    animation-timeline: view();
+    animation-range: entry 0% contain 60%;
+}
+
+.animation-bottom {
+    animation: bottom 1s;
+    animation-timeline: view();
+    animation-range: entry 0% contain 60%;
+}
