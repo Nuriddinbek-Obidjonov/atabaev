@@ -1,45 +1,20 @@
-import { Button, Dropdown, Space } from 'antd';
+import { useTranslation } from "react-i18next"
 
-const items = [
-  {
-    key: '1',
-    label: (
-      <a target="_blank" rel="noopener noreferrer" href="https://www.antgroup.com">
-        UZ
-      </a>
-    ),
-  },
-  {
-    key: '2',
-    label: (
-      <a target="_blank" rel="noopener noreferrer" href="https://www.aliyun.com">
-        ENG
-      </a>
-    ),
-  },
-  {
-    key: '3',
-    label: (
-      <a target="_blank" rel="noopener noreferrer" href="https://www.luohanacademy.com">
-        RU
-      </a>
-    ),
-  },
-];
+function Language() {
 
-const App = () => (
-  <Space direction="vertical">
-    <Space wrap>
-      <Dropdown
-        menu={{
-          items,
-        }}
-        placement="bottom"
-        arrow
-      >
-        <Button>UZ/EN/RU</Button>
-      </Dropdown>
-    </Space>
-  </Space>
-);
-export default App;
+  const [t, i18n] = useTranslation()
+
+  const changeLanguage = (e) => {
+    const selectedLanguage = e.target.value
+    i18n.changeLanguage(selectedLanguage)
+  }
+  
+  return (
+      <select name="langs" id="" className="bg-transparent border-none" onChange={changeLanguage}>
+        <option value="uz" className="text-black bg-slate-300">UZ</option>
+        <option value="en" className="text-black bg-slate-300">EN</option>
+        <option value="ru" className="text-black bg-slate-300">RU</option>
+      </select>
+  )
+};
+export default Language;

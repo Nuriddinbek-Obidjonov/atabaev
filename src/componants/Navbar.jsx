@@ -26,7 +26,7 @@ export function Navbar() {
     <div>
       <div className={`fixed z-50 top-0 left-0 w-full text-white hidden sm:block ${color ? 'bg-sky-950' : ''}`}>
         <div className='container-nav'>
-          <nav>
+          <nav className='navigation'>
             <ul className='flex font-semibold list-none justify-between items-center py-5'>
               {navData.map((data, i) => {
                 if (data.includes('logo')) {
@@ -34,7 +34,7 @@ export function Navbar() {
                     <li key={i} className='leading-[20px]'><img src={logo} alt="logo" className='h-[60px]'/></li>
                   )
                 } else {
-                  return <li key={i}><a href={`#${data}`}>{data}</a></li>
+                  return <li key={i}><a href={`#${data.split(' ').join('').toLowerCase()}`}>{data}</a></li>
                 }
               })}
               <li><Language/></li>
@@ -69,7 +69,7 @@ export function Navbar() {
                     ''
                   )
                 } else {
-                  return <li key={i} className='leading-[50px]'><a href={`#${data}`}>{data}</a></li>
+                  return <li key={i} className='leading-[50px]' onClick={() => setMenuOpen(false)}><a href={`#${data.split(' ').join('').toLowerCase()}`}>{data}</a></li>
                 }
               })}
               <li><Language/></li>

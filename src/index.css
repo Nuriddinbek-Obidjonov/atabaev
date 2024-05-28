@@ -8,6 +8,11 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 110px;
+}
+
 .container {
     margin: 0 auto;
     padding: 0 5%;

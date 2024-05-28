@@ -1,8 +1,13 @@
+import { useTranslation } from "react-i18next"
+
 function AllOurNews() {
-  return (
-    <div>
+    
+    const [t, i18n] = useTranslation()
+
+    return (
+    <div id="news">
         <div className='container'>
-            <h2 className='text-center text-3xl font-medium py-10'>All Our News</h2>
+            <h2 className='text-center text-3xl font-medium pb-10'>{t('allournews.title')}</h2>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-4'>
                 <div className='rounded-[20px] flex justify-between overflow-hidden shadow-xl animation-left'>
                     <div className="flex-1 pr-5">
@@ -10,10 +15,8 @@ function AllOurNews() {
                     </div>
                     <div className="flex-1 py-5 pr-5">
                         <span className="w-[150px] h-[30px] rounded-[50px] bg-gray-950 block border-2 border-solid border-gray-950 hover:bg-white duration-500"></span>
-                        <p className="my-3 text-xl font-semibold">Who is a construction project manager?</p>
-                        <p>
-                        The sophisticated interior design of the halls will create an atmosphere of comfort even before entering the apartment, and a convenient navigation system will help you easily get to the floor you need or exit to the territory
-                        </p>
+                        <p className="my-3 text-xl font-semibold">{t('allournews.card1.title')}</p>
+                        <p>{t('allournews.card1.info')}</p>
                     </div>
                 </div>
                 <div className='rounded-[20px] flex justify-between overflow-hidden shadow-xl animation-right'>
@@ -22,10 +25,8 @@ function AllOurNews() {
                     </div>
                     <div className="flex-1 py-5 pr-5">
                         <span className="w-[150px] h-[30px] rounded-[50px] bg-gray-950 block border-2 border-solid border-gray-950 hover:bg-white duration-500"></span>
-                        <p className="my-3 text-xl font-semibold">Who is a construction project manager?</p>
-                        <p>
-                        The sophisticated interior design of the halls will create an atmosphere of comfort even before entering the apartment, and a convenient navigation system will help you easily get to the floor you need or exit to the territory
-                        </p>
+                        <p className="my-3 text-xl font-semibold">{t('allournews.card2.title')}</p>
+                        <p>{t('allournews.card2.info')}</p>
                     </div>
                 </div>
                 <div className='rounded-[20px] flex justify-between overflow-hidden shadow-xl animation-left'>
@@ -34,10 +35,8 @@ function AllOurNews() {
                     </div>
                     <div className="flex-1 py-5 pr-5">
                         <span className="w-[150px] h-[30px] rounded-[50px] bg-gray-950 block border-2 border-solid border-gray-950 hover:bg-white duration-500"></span>
-                        <p className="my-3 text-xl font-semibold">Who is a construction project manager?</p>
-                        <p>
-                        The sophisticated interior design of the halls will create an atmosphere of comfort even before entering the apartment, and a convenient navigation system will help you easily get to the floor you need or exit to the territory
-                        </p>
+                        <p className="my-3 text-xl font-semibold">{t('allournews.card3.title')}</p>
+                        <p>{t('allournews.card3.info')}</p>
                     </div>
                 </div>
                 <div className='rounded-[20px] flex justify-between overflow-hidden shadow-xl animation-right'>
@@ -46,10 +45,8 @@ function AllOurNews() {
                     </div>
                     <div className="flex-1 py-5 pr-5">
                         <span className="w-[150px] h-[30px] rounded-[50px] bg-gray-950 block border-2 border-solid border-gray-950 hover:bg-white duration-500"></span>
-                        <p className="my-3 text-xl font-semibold">Who is a construction project manager?</p>
-                        <p>
-                        The sophisticated interior design of the halls will create an atmosphere of comfort even before entering the apartment, and a convenient navigation system will help you easily get to the floor you need or exit to the territory
-                        </p>
+                        <p className="my-3 text-xl font-semibold">{t('allournews.card4.title')}</p>
+                        <p>{t('allournews.card4.info')}</p>
                     </div>
                 </div>
             </div>

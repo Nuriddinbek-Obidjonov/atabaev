@@ -1,0 +1,103 @@
+{
+    "mainpage": {
+        "title": "ATABAEV BAHODIR BUILDING",
+        "slogan": "Excellence in everything",
+        "btnLeft": "Our Projects",
+        "btnRight": "Contact"
+    },
+    "ourservice": {
+        "title": "OUR SERVICES",
+        "card1": "You can get free information from our company's experts",
+        "card2": "Documentation",
+        "card3": "Repairing and Reconstructing Service",
+        "card4": "Team of Professionals"
+    },
+    "ourcompany": {
+        "title": "OUR COMPANY",
+        "card1": "Number of Employees",
+        "card2": "Objects",
+        "card3": "Special Equipment",
+        "card4": "14 years on the market"
+    },
+    "yourdreamhome": {
+        "title": "YOUR DREAM HOMES"
+    },
+    "ourprojects": {
+        "title": "OUR PROJECTS",
+        "card1": {
+            "title": "MAGIC CITY",
+            "info": "This is a large-scale socially significant project. The cultural and entertainment cluster in Tashkent is one of the new attractions!"
+        },
+        "card2": {
+            "title": "NATIONAL PARKS",
+            "info": "A multifunctional residential complex created for the convenience of the residents of Uzbekistan!"
+        },
+        "card3": {
+            "title": "FONON",
+            "info": "This is a large-scale socially significant project. The cultural and entertainment cluster in Tashkent is one of the new attractions!"
+        },
+        "card4": {
+            "title": "INVENTO",
+            "info": "This is a large-scale socially significant project. The cultural and entertainment cluster in Tashkent is one of the new attractions!"
+        },
+        "card5": {
+            "title": "BOULEVARD",
+            "info": "This is a large-scale socially significant project. The cultural and entertainment cluster in Tashkent is one of the new attractions!"
+        },
+        "card6": {
+            "title": "THE PRESIDENT'S SCHOOL",
+            "info": "This is a large-scale socially significant project. The cultural and entertainment cluster in Tashkent is one of the new attractions!"
+        }
+    },
+    "allournews": {
+        "title": "ALL OUR NEWS",
+        "card1": {
+            "title": "Who is the Construction Project Manager?",
+            "info": "The complex interior design of the halls creates an atmosphere of comfort even before entering the apartment, and a convenient navigation system will help you easily get to the desired floor or area!"
+        },
+        "card2": {
+            "title": "NATIONAL PARKS",
+            "info": "A multifunctional residential complex created for the convenience of the residents of Uzbekistan!"
+        },
+        "card3": {
+            "title": "FONON",
+            "info": "This is a large-scale socially significant project. The cultural and entertainment cluster in Tashkent is one of the new attractions!"
+        },
+        "card4": {
+            "title": "INVENTO",
+            "info": "The company itself is a very successful company. Take it, bear! We pay more than that. To some, it seems as if it is giving birth to the greats. undertakes"
+        }
+    },
+    "atabaev": {
+        "title": "ATABAEV BAHODIR BUILDING",
+        "slogan": "ATABAEV BAHODIR BUILDING",
+        "info": "The company itself is a very successful company. Take it, bear! We pay more than that. To some, it seems as if it is giving birth to the greats. The company itself is a very successful company. We pay more than that. "
+    },
+    "sendmessage": {
+        "title": "Do you have any questions, suggestions or requests?",
+        "form": {
+            "nameplaceholder": "Enter your name...",
+            "phoneplaceholder": "Enter your phone number...",
+            "commentplaceholder": "Do you have any suggestions for us...",
+            "sendbtntext": "Send",
+            "sendbtnsendingtext": "Sending..."
+        }
+    },
+    "footer": {
+        "card1": {
+            "title": "Subscribe to our pages on social networks!!!"
+        },
+        "card2": {
+            "title": "Our Company",
+            "text1": "Enterprises",
+            "text2": "About Us",
+            "text3": "News",
+            "text4": "Our Projects"
+        },
+        "card3": {
+            "title": "Contact Centers",
+            "text1": "+998 (94) 508-22-34",
+            "text2": "+998 (94) 508-22-34"
+        }
+    }
+}

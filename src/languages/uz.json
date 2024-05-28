@@ -1,0 +1,103 @@
+{
+    "mainpage": {
+        "title": "ATABAEV BAHODIR QURILISHLARI",
+        "slogan": "Har narsada mo'jazlik",
+        "btnLeft": "Bizning Proyektlar",
+        "btnRight": "Aloqa"
+    },
+    "ourservice": {
+        "title": "BIZNING XIZMATLAR",
+        "card1": "Siz kompaniyamiz mutaxassislaridan bepul ma'lumot olishingiz mumkin",
+        "card2": "Hujjatlarni rasmiylashtirish",
+        "card3": "Ta'mirlash va tuzatish xizmati",
+        "card4": "Professionallar jamoasi"
+    },
+    "ourcompany": {
+        "title": "BIZNING KOMPANIYA",
+        "card1": "Xodimlar soni",
+        "card2": "Obyektlar",
+        "card3": "Maxsus jihozlar",
+        "card4": "14 yillik ishonch"
+    },
+    "yourdreamhome": {
+        "title": "SIZNING ORZUYINGIZDAGI UYLAR"
+    },
+    "ourprojects": {
+        "title": "BIZNING LOYIHALAR",
+        "card1": {
+            "title": "MAGIC CITY",
+            "info": "Bu keng ko'lamli ijtimoiy ahamiyatga ega loyihadir. Toshkentdagi madaniy-ko'ngilochar klaster yangi diqqatga sazovor joylardan biridir!"
+        },
+        "card2": {
+            "title": "MILLIY BOG'LAR",
+            "info": "O'zbekiston aholisiga qulaylik yaratish maqsadida yaratilgan ko'p funksiyali turar-joy majmuasi!"
+        },
+        "card3": {
+            "title": "FONON",
+            "info": "Bu keng ko'lamli ijtimoiy ahamiyatga ega loyihadir. Toshkentdagi madaniy-ko'ngilochar klaster yangi diqqatga sazovor joylardan biridir!"
+        },
+        "card4": {
+            "title": "INVENTO",
+            "info": "Bu keng ko'lamli ijtimoiy ahamiyatga ega loyihadir. Toshkentdagi madaniy-ko'ngilochar klaster yangi diqqatga sazovor joylardan biridir!"
+        },
+        "card5": {
+            "title": "BOULVARD",
+            "info": "Bu keng ko'lamli ijtimoiy ahamiyatga ega loyihadir. Toshkentdagi madaniy-ko'ngilochar klaster yangi diqqatga sazovor joylardan biridir!"
+        },
+        "card6": {
+            "title": "PREZIDENT MAKTABI",
+            "info": "Bu keng ko'lamli ijtimoiy ahamiyatga ega loyihadir. Toshkentdagi madaniy-ko'ngilochar klaster yangi diqqatga sazovor joylardan biridir!"
+        }
+    },
+    "allournews": {
+        "title": "BIZNING BARCHA YANGILIKLARIMIZ",
+        "card1": {
+            "title": "Qurilish loyihasi menejeri kim?",
+            "info": "Zallarning murakkab ichki dizayni kvartiraga kirishdan oldin ham qulaylik muhitini yaratadi va qulay navigatsiya tizimi sizga kerakli qavatga osongina chiqishga yoki hududga chiqishga yordam beradi!"
+        },
+        "card2": {
+            "title": "MILLIY BOG'LAR",
+            "info": "O'zbekiston aholisiga qulaylik yaratish maqsadida yaratilgan ko'p funksiyali turar-joy majmuasi!"
+        },
+        "card3": {
+            "title": "FONON",
+            "info": "Bu keng ko'lamli ijtimoiy ahamiyatga ega loyihadir. Toshkentdagi madaniy-ko'ngilochar klaster yangi diqqatga sazovor joylardan biridir!"
+        },
+        "card4": {
+            "title": "INVENTO",
+            "info": "Kompaniyaning o'zi juda muvaffaqiyatli kompaniya. Qabul qiling, ayiq! Biz bundan ham ko'proq haq to'laymiz. Ba'zilarga go'yo u o'zini tug'dirayotgandek, ulug'larning rohatini o'z zimmasiga oladi"
+        }
+    },
+    "atabaev": {
+        "title": "ATABAEV BAHODIR QURILISHLARI",
+        "slogan": "ATABAEV BAHODIR QURILISHLARI",
+        "info": "Kompaniyaning o'zi juda muvaffaqiyatli kompaniya. Qabul qiling, ayiq! Biz bundan ham ko'proq haq to'laymiz. Ba'zilarga go'yo u o'zini tug'dirayotgandek, ulug'larning rohatini o'z zimmasiga oladi. Kompaniyaning o'zi juda muvaffaqiyatli kompaniya. Qabul qiling, ayiq! Biz bundan ham ko'proq haq to'laymiz. Ba'zilarga go'yo u o'zini tug'dirayotgandek, ulug'larning rohatini o'z zimmasiga oladi"
+    },
+    "sendmessage": {
+        "title": "Sizni qiziqtirgan qandaydir savol yoki takliflar bormi?",
+        "form": {
+            "nameplaceholder": "Ismingizni kiriting...",
+            "phoneplaceholder": "Telefon raqamingizni kiriting...",
+            "commentplaceholder": "Sizda biz uchun qandaydir takliflar bormi...",
+            "sendbtntext": "Yuborish",
+            "sendbtnsendingtext": "Yuborilmoqda..."
+        }
+    },
+    "footer": {
+        "card1": {
+            "title": "Bizning ijtimoiy tarmoqlardagi sahifalarimizga obuna bo'ling!!!"
+        },
+        "card2": {
+            "title": "Bizning Kompaniya",
+            "text1": "Korxonalar",
+            "text2": "Biz haqimizda",
+            "text3": "Yangiliklar",
+            "text4": "Bizning Loyihalarimiz"
+        },
+        "card3": {
+            "title": "Aloqa Markazlari",
+            "text1": "+998 (94) 508-22-34",
+            "text2": "+998 (94) 508-22-34"
+        }
+    }
+}

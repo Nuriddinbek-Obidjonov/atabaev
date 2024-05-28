@@ -4,11 +4,15 @@ import traditional from '../assets/traditional.jpg'
 import compact from '../assets/compact.jpg'
 import expensive from '../assets/expensive.jpg'
 import modern from '../assets/modern.jpg'
+import { useTranslation } from 'react-i18next'
 
 function YourDreamHome() {
+    
+  const [t, i18n] = useTranslation()
+
   return (
-    <div>
-            <h2 className='text-center text-3xl font-medium py-10'>Your Dream Home</h2>
+    <div className='mb-10'>
+            <h2 className='text-center text-3xl font-medium pb-10'>{t('yourdreamhome.title')}</h2>
             <div className='grid grid-cols-2 sm:grid-cols-3'>
                 <div className='w-full h-[300px]'>
                     <img src={luxury} className='w-full h-full' alt="luxury" />
