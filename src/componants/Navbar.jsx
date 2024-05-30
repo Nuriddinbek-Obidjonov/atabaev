@@ -34,7 +34,7 @@ export function Navbar() {
                 <a href='#information'>{t('navbar.information')}</a>
               </li>
               <li>
-                <a href='#about'>{t('navbar.about')}</a>
+                <a href='#aboutus'>{t('navbar.about')}</a>
               </li>
               <li>
                 <a href='#enterprises'>{t('navbar.enterprises')}</a>
