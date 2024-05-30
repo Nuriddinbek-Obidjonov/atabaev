@@ -1,4 +1,12 @@
 {
+    "navbar": {
+        "information": "Malumotlar",
+        "about": "Batafsil",
+        "enterprises": "Loyihalar",
+        "ouradvantages": "Qulayliklar",
+        "news": "Yangiliklar",
+        "communication": "Takliflar"
+    },
     "mainpage": {
         "title": "ATABAEV BAHODIR QURILISHLARI",
         "slogan": "Har narsada mo'jazlik",
@@ -53,7 +61,7 @@
         "title": "BIZNING BARCHA YANGILIKLARIMIZ",
         "card1": {
             "title": "Qurilish loyihasi menejeri kim?",
-            "info": "Zallarning murakkab ichki dizayni kvartiraga kirishdan oldin ham qulaylik muhitini yaratadi va qulay navigatsiya tizimi sizga kerakli qavatga osongina chiqishga yoki hududga chiqishga yordam beradi!"
+            "info": "Zallarning murakkab ichki dizayni kvartiraga kirishdan oldin ham qulaylik muhitini yaratadi!"
         },
         "card2": {
             "title": "MILLIY BOG'LAR",
@@ -65,7 +73,7 @@
         },
         "card4": {
             "title": "INVENTO",
-            "info": "Kompaniyaning o'zi juda muvaffaqiyatli kompaniya. Qabul qiling, ayiq! Biz bundan ham ko'proq haq to'laymiz. Ba'zilarga go'yo u o'zini tug'dirayotgandek, ulug'larning rohatini o'z zimmasiga oladi"
+            "info": "Kompaniyaning o'zi juda muvaffaqiyatli kompaniya. Qabul qiling, ayiq! Biz bundan ham ko'proq haq to'laymiz"
         }
     },
     "atabaev": {
@@ -81,6 +89,10 @@
             "commentplaceholder": "Sizda biz uchun qandaydir takliflar bormi...",
             "sendbtntext": "Yuborish",
             "sendbtnsendingtext": "Yuborilmoqda..."
+        },
+        "modal": {
+            "title": "Rahmat",
+            "info": "Tez orada siz bilan bog'lanamiz"
         }
     },
     "footer": {

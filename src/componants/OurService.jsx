@@ -11,7 +11,7 @@ function OurService() {
   return (
     <div id='information' className='mb-20'>
         <div className='container'>
-            <h2 className='text-center text-3xl font-medium pt-5 pb-10'>{t('ourservice.title')}</h2>
+            <h2 className='text-center text-xl sm:text-3xl font-bold pt-5 pb-10'>{t('ourservice.title')}</h2>
             <div className='w-full grid grid-cols-1 md:grid-cols-5 gap-4 text-white'>
                 <div className='md:col-span-3 rounded-[20px] bg-gray-900 flex items-center justify-between pl-10 overflow-hidden h-[210px] animation-left'>
                     <p>{t('ourservice.card1')}</p>

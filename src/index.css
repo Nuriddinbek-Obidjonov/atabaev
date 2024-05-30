@@ -92,3 +92,33 @@ html {
     animation-timeline: view();
     animation-range: entry 0% contain 60%;
 }
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 40;
+    display: block !important;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+.modal div {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 50%;
+    min-width: 200px;
+    max-width: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.modal div img {
+    width: 50%;
+    margin: 20px auto 0;
+}

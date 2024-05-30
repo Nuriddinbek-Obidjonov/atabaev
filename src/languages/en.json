@@ -1,4 +1,12 @@
 {
+    "navbar": {
+        "information": "Information",
+        "about": "About",
+        "enterprises": "Enterprises",
+        "ouradvantages": "Our Advantages",
+        "news": "News",
+        "communication": "Communication"
+    },
     "mainpage": {
         "title": "ATABAEV BAHODIR BUILDING",
         "slogan": "Excellence in everything",
@@ -53,7 +61,7 @@
         "title": "ALL OUR NEWS",
         "card1": {
             "title": "Who is the Construction Project Manager?",
-            "info": "The complex interior design of the halls creates an atmosphere of comfort even before entering the apartment, and a convenient navigation system will help you easily get to the desired floor or area!"
+            "info": "The complex interior design of the halls creates an atmosphere of comfort even before entering!"
         },
         "card2": {
             "title": "NATIONAL PARKS",
@@ -65,13 +73,13 @@
         },
         "card4": {
             "title": "INVENTO",
-            "info": "The company itself is a very successful company. Take it, bear! We pay more than that. To some, it seems as if it is giving birth to the greats. undertakes"
+            "info": "The company itself is a very successful company. Take it, bear! We pay more than that. To some, it seems"
         }
     },
     "atabaev": {
         "title": "ATABAEV BAHODIR BUILDING",
         "slogan": "ATABAEV BAHODIR BUILDING",
-        "info": "The company itself is a very successful company. Take it, bear! We pay more than that. To some, it seems as if it is giving birth to the greats. The company itself is a very successful company. We pay more than that. "
+        "info": "The company itself is a very successful company. Take it, bear! We pay more than that. To some, it seems as if it is giving birth to the greats. The company itself is a very successful company. We pay more than that. The company itself is a very successful company. We pay more than that"
     },
     "sendmessage": {
         "title": "Do you have any questions, suggestions or requests?",
@@ -81,6 +89,10 @@
             "commentplaceholder": "Do you have any suggestions for us...",
             "sendbtntext": "Send",
             "sendbtnsendingtext": "Sending..."
+        },
+        "modal": {
+            "title": "Thank you",
+            "info": "We will contact you shortly"
         }
     },
     "footer": {
